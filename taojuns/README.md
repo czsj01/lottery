@@ -1,3 +1,11 @@
 # Simple Software Design Change Assignment
 
+One thing is a problem for me is that I have never used python, so I can’t understand anything in that megamillions_from_apriori.py file. So I want to re-implement or to say improve this in Java but anyone else can still implement in python, but just follow my text description, and I want to make the graph easy to understand and useful.
 
+So first, I would like to create a class called Graph or Megamillions, it will contain at least one instance variable, it will be an array or the way can store a big amount of data, and create a readFile function, in our readFile function, I would like to use a try and catch method, and in try and catch method, I would like to create a file call megamillions, it will reads megamillions.csv, and saved to the array. If it failed to open the megamillions.csv, it will return an error message.
+
+The important part for the improvement to the original version of software is that the number 57 to 75 balls have only existed for a portion of the entire time the Megamillions lottery was existed, so the number or the frequency will be very low and won’t give the user a better experience on the graph. So I want to create a function called calcAmount or any other name, that will count how many times the 57 to 75 balls appear and how many years the number have existed of the entire time and divide them to get the actual correct probability for each ball appear in one year.
+
+Then to improve the graph, I would suggest to use a line graph rather than use bar chart, because the number of balls is too much, it makes the user very hard to see the difference. On the X row the graph can just be 0, 5, 10… or 0, 10, 20… And use a trend line to let the user easily to determine how is the difference of the graph. There are many ways to implement graph, for Java, we can use GUI, or we can download graph library to implement graph. But it’s easier to do in python.
+
+In the end, we need a main function in Java, or something like that in python, when user run the command, first will run the function to read from file and store the file. And then it will run the function to create a graph and open a window to let the user view the graph, close the window of graph when user end the software.
